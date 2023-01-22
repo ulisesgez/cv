@@ -92,7 +92,7 @@ section {
     height: 240px;
     text-align: center;
 }
-.about__divisions {
+.main__division {
     width: 90%;
     align-self: center;
     margin: 5px 5px;
@@ -142,8 +142,12 @@ section {
     flex-direction: column;
     justify-content: center;
     min-width: 310px;
-    height: 2000px;
+    height: 1500px;
     text-align: center;
+}
+.experience__content {
+    margin: 10px 10px;
+    text-align: start;
 }
 .education {
     position: relative;
