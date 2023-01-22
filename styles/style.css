@@ -175,6 +175,10 @@ section {
     height: 360px;
     text-align: center;
 }
+.education__content {
+    margin: 10px 10px;
+    text-align: center;
+}
 .certifications {
     position: relative;
     display: flex;
