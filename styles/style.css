@@ -93,9 +93,23 @@ section {
     text-align: center;
 }
 .main__division {
-    width: 90%;
     align-self: center;
+    background-color: var(--primary-black);
+    border-color: var(--primary-white);
+    border-style: none;
+    border-top-style: solid;
+    border-width: 0.5px;
+    width: 90%;
     margin: 5px 5px;
+}
+.points__division{
+    align-self: center;
+    background-color: var(--primary-black);
+    border-color: var(--primary-white);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 10%;
 }
 .about__socialmedia {
     width: 90%;
@@ -142,12 +156,15 @@ section {
     flex-direction: column;
     justify-content: center;
     min-width: 310px;
-    height: 1500px;
+    height: 1200px;
     text-align: center;
 }
 .experience__content {
     margin: 10px 10px;
     text-align: start;
+}
+.experience__content--min {
+    font-size: 1.5rem;
 }
 .education {
     position: relative;
