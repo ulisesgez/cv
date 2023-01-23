@@ -158,8 +158,8 @@ section {
     flex-direction: column;
     justify-content: center;
     min-width: 310px;
-    height: 1200px;
     text-align: center;
+    padding: 20px 0px;
 }
 .experience__content {
     margin: 10px 10px;
