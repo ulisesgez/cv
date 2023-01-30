@@ -45,40 +45,37 @@ nav {
     background-color: var(--primary-black);
     border-bottom: 1px solid var(--tertiary-black);
 }
-  .menuIcon {
+.menuIcon {
     display: none;
-  }
-  .menuLogo {
+}
+.menuLogo {
     width: 100px;
-  }
-  .menuDesktop ul {
+}
+.menuDesktop ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
     height: 60px;
-  }
-  .menuDesktop {
-    display: flex;
-  }
-  .menuDesktop ul {
-    margin-left: 12px;
-  }
-  .menuDesktop ul li a {
-    text-decoration: none;
-    font-size: 1.8rem;
-    color: var(--primary-white);
-    border: 1px solid var(--primary-black);
-    padding: 8px;
-    border-radius: 8px;
-  }
-  .menuDesktop ul li a:hover,
-  .navbar-right ul li a:hover {
-    color: var(--primary-blue);
-  }
-  
-
+}
+.menuDesktop {
+  display: flex;
+}
+.menuDesktop ul {
+  margin-left: 12px;
+}
+.menuDesktop ul li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--primary-white);
+  border: 1px solid var(--primary-black);
+  padding: 8px;
+  border-radius: 8px;
+}
+.menuDesktop ul li a:hover {
+  color: var(--primary-blue);
+}
 section {
     background-color: var(--secondary-black);
     border-radius: 10px;
@@ -232,7 +229,6 @@ section {
     text-align: center;
     margin: 5px 5px;
 }
-
 @media (max-width: 640px) {
     .menuIcon {
       display: block;
@@ -241,3 +237,9 @@ section {
       display: none;
     }
   }
+
+@media (min-width: 641px) {
+    .menuMobil {
+        display: none;
+    }
+}
