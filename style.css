@@ -80,6 +80,7 @@ section {
     background-color: var(--secondary-black);
     border-radius: 10px;
     min-width: 290px;
+    max-width: 899px;
     margin: 1.5rem 1.5rem;
 }
 .presentation {
