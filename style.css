@@ -1,7 +1,7 @@
 :root {
     --primary-blue: #1a75ffff;
     --primary-white: #ffffffff;
-    --primary-black: black;
+    --primary-black: rgb(18, 18, 18);
     --secondary-black: #222222ff;
     --tertiary-black: #3e3e3eff;
 }
@@ -18,11 +18,11 @@ html {
     scroll-behavior: smooth;
 }
 h1 {
-    font-size: 2.6rem;
+    font-size: 3.0rem;
     font-weight: bold;
 }
 h2 {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
     font-weight: bold;
 }
 h3 {
@@ -30,7 +30,7 @@ h3 {
     font-weight: bold;
 }
 p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 span {
     font-size: 1.4rem;
@@ -79,14 +79,14 @@ header label {
 section {
     background-color: var(--secondary-black);
     border-radius: 10px;
-    margin: 5px 5px 15px 5px;
+    min-width: 290px;
+    margin: 1.5rem 1.5rem;
 }
 .presentation {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 310px;
     padding: 90px 0px 20px 0px;
     text-align: center;
 }
@@ -98,8 +98,12 @@ section {
 .presentation__me {
     margin: 10px 0px 0px 0px;
 }
+.presentation__profession {
+    font-size: 1.8rem;
+    color: rgb(216, 216, 216);
+}
 .presentation__content {
-    margin: 10px 10px;
+    margin: 0.4rem 0.4rem;
 }
 .presentation__actions button {
     color: var(--primary-white);
@@ -128,7 +132,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 310px;
     padding: 20px 0px;
     text-align: center;
 }
@@ -171,7 +174,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 310px;
     padding: 20px 0px;
     text-align: center;
 }
@@ -195,7 +197,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 310px;
     text-align: center;
     padding: 20px 0px;
 }
@@ -203,15 +204,11 @@ section {
     margin: 10px 10px;
     text-align: start;
 }
-.experience__content--min {
-    font-size: 1.5rem;
-}
 .education {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 310px;
     padding: 20px 0px;
     text-align: center;
 }
@@ -219,15 +216,16 @@ section {
     margin: 10px 10px;
     text-align: center;
 }
+.education__content--min {
+    font-size: 1.5rem;
+}
 .certifications {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 310px;
     padding: 20px 0px;
     text-align: center;
-    margin: 5px 5px;
 }
 @media (max-width:768px) {
     header label {
